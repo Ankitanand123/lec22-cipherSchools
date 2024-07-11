@@ -1,0 +1,23 @@
+// #include <iostream>
+// using namespace std;
+
+// int main(){
+//     int a;
+//     int *p;
+//     p= &a;
+//     cout<<p;
+
+// }
+#include <iostream>
+using namespace std;
+int main(){
+    int a = 3;
+    int *b;
+    b = &a;
+    cout<<"The value of a is: "<<a<<endl; // value of a
+    cout<<"The value of a is: "<<*b<<endl; // value of a
+    cout<<"The address of a is: "<<&a<<endl;//address of a 
+    cout<<"The address of a is: "<<b<<endl; //address of a 
+    cout<<"The address of b is: "<<&b<<endl; //address of b (pointer)
+    return 0;
+}
